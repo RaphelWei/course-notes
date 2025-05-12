@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Course Notes"
+  site-url: "https://sihanwei.org"
 
   navbar:
     left:
@@ -17,7 +18,7 @@ website:
       href: /notes/courses/measure-theory/index.qmd
       contents:
         - text: Introduction
-          href: courses/measure-theory/01-intro.qmd
+          href: /notes/courses/measure-theory/01-intro.qmd
     - section: "Probability Theory"
       href: courses/probability-theory/index.qmd
     - section: "Functional Analysis"
