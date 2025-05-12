@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Functional Analysis
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=wZJ4VukukC6ycmet&amp;list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -8,4 +8,5 @@ Welcome to the lecture notes for **CISC484**.
 
 ## Lectures
 
-- [Lecture 1 – Overview](01-intro.qmd)
+
+

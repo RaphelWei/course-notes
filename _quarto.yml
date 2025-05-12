@@ -11,7 +11,15 @@ website:
   sidebar:
     style: floating
     search: true
-    contents: auto
+    contents: 
+      - "---"
+      - section: courses/measure-theory/index.qmd
+        contents: 
+          - courses/measure-theory/01-intro.qmd
+      - "---"
+      - section: courses/probability-theory/index.qmd
+      - "---"
+      - section: courses/functional-analysis/index.qmd
 
 format:
   html:
