@@ -4,28 +4,27 @@ project:
 website:
   title: "Course Notes"
   site-url: "https://sihanwei.org"
-  site-path: "/notes"
+  site-path: "/notes/"       # ← must have trailing slash
+
   navbar:
     left:
       - text: "Home"
         href: index.qmd
+
   sidebar:
     style: floating
     search: true
-    contents: 
-      - "---"
-      - section: courses/measure-theory/index.qmd
-        contents: 
+    contents:
+      - index.qmd
+      - section: "Measure Theory"
+        href: courses/measure-theory/index.qmd
+        contents:
           - courses/measure-theory/01-intro.qmd
-      - "---"
-      - section: courses/probability-theory/index.qmd
-      - "---"
-      - section: courses/functional-analysis/index.qmd
+      # …and so on…
 
 format:
   html:
-    base-url: "/notes"
-    theme: 
+    theme:
       light: litera
       dark: darkly
     toc: true
@@ -35,7 +34,3 @@ format:
       - name: Sihan Wei
         email: me@sihanwei.org
         affiliation: University of Delaware
-
-
-
-
