@@ -14,14 +14,14 @@ website:
     contents:
     - index.qmd
     - section: "Measure Theory"
-      href: notes/courses/measure-theory/index.qmd
+      href: courses/measure-theory/index.qmd
       contents:
         - text: Introduction
-          href: notes/courses/measure-theory/01-intro.qmd
+          href: courses/measure-theory/01-intro.qmd
     - section: "Probability Theory"
-      href: notes/courses/probability-theory/index.qmd
+      href: courses/probability-theory/index.qmd
     - section: "Functional Analysis"
-      href: notes/courses/functional-analysis/index.qmd
+      href: courses/functional-analysis/index.qmd
 
 format:
   html:
