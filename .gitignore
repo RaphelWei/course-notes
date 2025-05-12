@@ -2,3 +2,7 @@
 _site/
 .vscode/
 .DS_Store
+/.quarto/
+
+# Local Netlify folder
+.netlify
