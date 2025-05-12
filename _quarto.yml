@@ -11,15 +11,7 @@ website:
   sidebar:
     style: floating
     search: true
-    contents:
-      - index.qmd
-      - section: "Measure Theory"
-        contents:
-          - measure-theory/index.qmd
-          - measure-theory/01-intro.qmd
-      - section: "CS336 – LLM Theory"
-        contents:
-          - cs336/index.qmd
+    contents: auto
 
 format:
   html:

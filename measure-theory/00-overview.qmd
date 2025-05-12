@@ -9,5 +9,3 @@ Welcome to the lecture notes for **CISC484**.
 ## Lectures
 
 - [Lecture 1 – Overview](01-intro.qmd)
-- [Lecture 2 – Logistic Regression](02-logreg.qmd)
-- [Lecture 3 – SVM](03-svm.qmd)
