@@ -1,29 +1,35 @@
 project:
   type: website
+  # ensure your redirect file actually makes it into the build
 
 website:
   title: "Course Notes"
-  site-url: "https://sihanwei.org"
-  site-path: "/notes/"       # ← must have trailing slash
+  # you can drop site-url/site-path entirely if you're using relative links
+  # site-url: "https://sihanwei.org"
+  # site-path: "/notes"
 
-  navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
+navbar:
+  left:
+    - text: "Home"
+      href: index.qmd
 
-  sidebar:
-    style: floating
-    search: true
-    contents:
-      - index.qmd
-      - section: "Measure Theory"
-        href: courses/measure-theory/index.qmd
-        contents:
-          - courses/measure-theory/01-intro.qmd
-      # …and so on…
+sidebar:
+  style: floating
+  search: true
+  contents:
+    - index.qmd                    # Home
+    - section: "Measure Theory"
+      href:   ./courses/measure-theory/index.qmd
+      contents:
+        - ./courses/measure-theory/01-intro.qmd
+    - section: "Probability Theory"
+      href:   ./courses/probability-theory/index.qmd
+    - section: "Functional Analysis"
+      href:   ./courses/functional-analysis/index.qmd
 
 format:
   html:
+    # base-url is optional if you only use relative links
     theme:
       light: litera
       dark: darkly
