@@ -14,7 +14,7 @@ website:
     contents:
     - index.qmd
     - section: "Measure Theory"
-      href: notes/courses/measure-theory/index.qmd
+      href: /notes/courses/measure-theory/index.qmd
       contents:
         - text: Introduction
           href: courses/measure-theory/01-intro.qmd
