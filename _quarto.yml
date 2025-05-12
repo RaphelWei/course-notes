@@ -3,26 +3,25 @@ project:
 
 website:
   title: "Course Notes"
-  site-url: "https://sihanwei.org/notes/"
 
-navbar:
-  left:
-    - text: "Home"
-      href: index.qmd
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
 
-sidebar:
-  style: floating
-  search: true
-  contents:
+  sidebar:
+    search: true
+    contents:
     - index.qmd
     - section: "Measure Theory"
-      href: "/notes/courses/measure-theory/index.qmd"
+      href: notes/courses/measure-theory/index.qmd
       contents:
-        - "/notes/courses/measure-theory/01-intro.qmd"
+        - text: Introduction
+          href: notes/courses/measure-theory/01-intro.qmd
     - section: "Probability Theory"
-      href: "/notes/courses/probability-theory/index.qmd"
+      href: notes/courses/probability-theory/index.qmd
     - section: "Functional Analysis"
-      href: "/notes/courses/functional-analysis/index.qmd"
+      href: notes/courses/functional-analysis/index.qmd
 
 format:
   html:
