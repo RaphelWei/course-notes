@@ -1,0 +1,37 @@
+---
+title: "Lecture 1 – Introduction: "
+---
+
+
+> [Watch the lecture here](https://youtu.be/KrRD7r7y7NY?si=SoU9a1QCvwdpb7C6)
+
+
+## Introduction
+
+::: {#thm-line .theorem}
+
+## Line
+Let $f$ be a continuous function on $[a, b]$. Then $f$ is bounded on $[a, b]$.
+:::
+
+::: {.proof}
+By induction.
+:::
+
+## What is Supervised Learning?
+
+We are given training data $\{(x_i, y_i)\}_{i=1}^n$...
+
+### Hypothesis Class
+
+We define a hypothesis class $\mathcal{H}$ such that...
+
+$$
+h^* = \arg\min_{h \in \mathcal{H}} \mathcal{R}(h)
+$$
+
+## Goals
+
+By the end of this lecture, you should understand:
+- What supervised learning is
+- The difference between training loss and true risk

@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Course Notes"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+  sidebar:
+    style: floating
+    search: true
+    contents:
+      - index.qmd
+      - section: "Measure Theory"
+        contents:
+          - measure-theory/index.qmd
+          - measure-theory/01-intro.qmd
+      - section: "CS336 – LLM Theory"
+        contents:
+          - cs336/index.qmd
+
+format:
+  html:
+    theme: 
+      light: litera
+      dark: darkly
+    toc: true
+    css: style.css
+    number-sections: true
+    author:
+      - name: Sihan Wei
+        email: me@sihanwei.org
+        affiliation: University of Delaware
+
+
+
+
