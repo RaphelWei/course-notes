@@ -3,7 +3,8 @@ project:
 
 website:
   title: "Course Notes"
-  site-url: "https://sihanwei.org/notes"
+  site-url: "https://sihanwei.org"
+  site-path: "/notes"
   navbar:
     left:
       - text: "Home"
